@@ -1,6 +1,18 @@
 # interpagapi
 API para o Interpag
 
+
+
+![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/sistema-qrcode.png)
+
+
+![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/processo-qrcode.png)
+
+
+
+
+
+
 ### api.bancointer.com.br/v1/
 
 POST
