@@ -6,12 +6,12 @@ API para o Interpag
 POST
 api.bancointer.com.br/v1/qr-code/
 
-Json
-{
+  Json
+    {
   
-  "pin": "giygsuhuhdudneindlksndm93ue9078098",
+    "pin": "giygsuhuhdudneindlksndm93ue9078098",
   
-    "item": {
+     "item": {
     
       "15":{
       
@@ -36,13 +36,13 @@ Json
         
       }
 
-  },
+    },
   
-  "referenciaCompra":"1789",
+       "referenciaCompra":"1789",
   
-  "data":"25/01/1990"
+       "data":"25/01/1990"
  
-}
+     }
 
 MODELO DE BODY
 
