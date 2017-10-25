@@ -6,7 +6,7 @@ API para o Interpag
 POST
 api.bancointer.com.br/v1/qr-code/
 
-&Token=""
+&Token="giygsuhuhdudneindlksndm93ue9078098"
 
 &Item-1="15"
 
@@ -20,13 +20,13 @@ api.bancointer.com.br/v1/qr-code/
 
 &Item-2="15"
 
-&nome-2="bola de futebol"
+&nome-2="chuteira"
 
-&Descricao-2="bola kichute"
+&Descricao-2="adidas campo"
 
-&Valor-2="1000"
+&Valor-2="20000"
 
-&Quantidade-2="2"
+&Quantidade-2="1"
 
 &ReferenciaCompra="1789"
 
