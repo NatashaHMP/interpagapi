@@ -5,18 +5,31 @@ API para o Interpag
 
 POST
 api.bancointer.com.br/v1/qr-code/
+
 &Token=""
+
 &Item-1="15"
-&nome-1="bola de futibol"
+
+&nome-1="bola de futebol"
+
 &Descricao-1="bola kichute"
+
 &Valor-1="1000"
+
 &Quantidade-1="2"
+
 &Item-2="15"
-&nome-2="bola de futibol"
+
+&nome-2="bola de futebol"
+
 &Descricao-2="bola kichute"
+
 &Valor-2="1000"
+
 &Quantidade-2="2"
+
 &ReferenciaCompra="1789"
+
 &Data="01/01/1990"
 
 
