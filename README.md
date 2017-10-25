@@ -9,22 +9,36 @@ api.bancointer.com.br/v1/qr-code/
 Json
 {
   "pin": "giygsuhuhdudneindlksndm93ue9078098",
+  
     "item": {
+    
       "15":{
+      
         "nome":"bola",
+        
         "descricao":"bola kichute",
+        
         "valor":"1000",
+        
         "quantidade":"2"
+        
       }
       "17":{
+      
         "nome":"chuteira",
+        
         "descricao":"adidas campo",
+        
         "valor":"24000",
+        
         "quantidade":"1"
+        
       }
 
   },
+  
   "referenciaCompra":"1789",
+  
   "data":"25/01/1990"
  
 }
