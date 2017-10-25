@@ -8,6 +8,7 @@ api.bancointer.com.br/v1/qr-code/
 
 Json
 {
+  
   "pin": "giygsuhuhdudneindlksndm93ue9078098",
   
     "item": {
