@@ -7,4 +7,6 @@ API para o Interpag
 - Descrição
 - Valor
 - Quantidade
+- ReferenciaCompra
+- Data
 
