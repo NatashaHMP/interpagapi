@@ -8,29 +8,47 @@ api.bancointer.com.br/v1/qr-code/
 
 &token="giygsuhuhdudneindlksndm93ue9078098"
 
+&item-0="15"
+
+&nome-0="bola de futebol"
+
+&descricao-0="bola kichute"
+
+&valor-0="1000"
+
+&quantidade-0="2"
+
 &item-1="15"
 
-&nome-1="bola de futebol"
+&nome-1="chuteira"
 
-&descricao-1="bola kichute"
+&descricao-1="adidas campo"
 
-&valor-1="1000"
+&valor-1="20000"
 
-&quantidade-1="2"
-
-&item-2="15"
-
-&nome-2="chuteira"
-
-&descricao-2="adidas campo"
-
-&valor-2="20000"
-
-&quantidade-2="1"
+&quantidade-1="1"
 
 &referenciaCompra="1789"
 
-&data="01/01/1990"
+&data="25/01/1990"
+
+MODELO DE BODY
+
+[string] token = Codigo de verificação unico para acesso a area restrita ao cliente.
+
+[int] item-{numero} = Codigo de indentificação do produto.
+
+[string] nome-{numero} = nome que é referenciado o produto.
+
+[string] descricao-{numero} = descrição do produto
+
+[int] valor-{numero} = valor do produto escrito sem virgula ou ponto sendo que os 2 ultimos digitos representão os centavos.
+
+[int] quantidade-{numero} = quantidade do produto.
+
+[string] referenciaCompra = codigo usado para referenciar a compra
+
+[string] data = data separado por "barra"
 
 
 
