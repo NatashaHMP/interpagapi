@@ -6,45 +6,42 @@ API para o Interpag
 POST
 api.bancointer.com.br/v1/qr-code/
 
-&token="giygsuhuhdudneindlksndm93ue9078098"
+Json
+{
+  "pin": "giygsuhuhdudneindlksndm93ue9078098",
+    "item": {
+      "15":{
+        "nome":"bola",
+        "descricao":"bola kichute",
+        "valor":"1000",
+        "quantidade":"2"
+      }
+      "17":{
+        "nome":"chuteira",
+        "descricao":"adidas campo",
+        "valor":"24000",
+        "quantidade":"1"
+      }
 
-&item-0="15"
-
-&nome-0="bola de futebol"
-
-&descricao-0="bola kichute"
-
-&valor-0="1000"
-
-&quantidade-0="2"
-
-&item-1="15"
-
-&nome-1="chuteira"
-
-&descricao-1="adidas campo"
-
-&valor-1="20000"
-
-&quantidade-1="1"
-
-&referenciaCompra="1789"
-
-&data="25/01/1990"
+  },
+  "referenciaCompra":"1789",
+  "data":"25/01/1990"
+ 
+}
 
 MODELO DE BODY
 
-[string] token = Codigo de verificação unico para acesso a area restrita ao cliente.
+[string] pin = Codigo de verificação unico para acesso a area restrita ao cliente.
 
-[int] item-{numero} = Codigo de indentificação do produto.
+[object] item = Codigo de indentificação do produto.
 
-[string] nome-{numero} = nome que é referenciado o produto.
+[string] nome = nome que é referenciado o produto.
 
-[string] descricao-{numero} = descrição do produto
+[string] descricao = descrição do produto
 
-[int] valor-{numero} = valor do produto escrito sem virgula ou ponto sendo que os 2 ultimos digitos representão os centavos.
+[int] valor} = valor do produto escrito sem virgula ou ponto sendo que os 2 ultimos digitos representão os centavos.
 
-[int] quantidade-{numero} = quantidade do produto.
+[int] quantidade = quantidade do produto.
 
 [string] referenciaCompra = codigo usado para referenciar a compra
 
