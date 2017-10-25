@@ -94,7 +94,7 @@ GET
 api.bancointer.com.br/v1/qr-code/
 
 Header
-                   "pin":"qwertyuiasd234sdfgcv567dfgh678",
+            "pin":"qwertyuiasd234sdfgcv567dfgh678",            
 
             "qr-code":"iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABF0lEQVR42u2YTRKDIAyFw4pjcNMC
             N+UYrKAvCTJq222ThQw6yOfiaX6V5q9BD3nIn0khjFRnCz3NzhfBDak4eiqUSmwZUHeckE5Lb2Th
@@ -174,13 +174,16 @@ Header
 
 ### Json
       {  
-    "status":"3",  
+    "status":"3",
+    "token-sms":"1536"
   
      }
 
 MODELO DE BODY
 
  [int] status = parametro de estado da compra
+ 
+ [int] token-sms = token recebido via sms
  
  EXEMPLO DE RESPOSTA
  
