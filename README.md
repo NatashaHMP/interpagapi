@@ -1,7 +1,7 @@
 # interpagapi
 API para o Interpag
 
-###api.bancointer.com.br
+### api.bancointer.com.br
 - Item
 - ItemID
 - Descrição
@@ -13,7 +13,7 @@ API para o Interpag
 - Token
 - QRCode
 
-###Mensagens de Resposta:
+### Mensagens de Resposta:
 - 400	Bad Request
 - 401	Unauthorized
 - 403	Forbidden
