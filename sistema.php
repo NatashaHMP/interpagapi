@@ -23,7 +23,7 @@
 	</div>
 	<div class="col-md-4"></div>
 	<div class="col-md-4">
-		<img src="logo_bh.png" style="display: block; margin: 0 auto; padding-top: 150px" >
+		<img src="interpag_logomdpi.png" style="display: block; margin: 0 auto; padding-top: 150px" >
 		<hr>
 		<form id="formGerar" method="post">
 			<div class="form-group">
