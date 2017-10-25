@@ -185,9 +185,8 @@ MODELO DE BODY
  EXEMPLO DE RESPOSTA
  
  ### Json
-      {
-  
-    "data":"2009-06-15T13:45:30",
+      { 
+   
     
     "transacao-id":" "iVBO456GgoAAAAN"
     
@@ -196,7 +195,7 @@ MODELO DE BODY
  
  MODELO DE BODY
 
- [int] status = data de alteracao do estatus da compra
+
  
  [string] transacao-id = codigo de transacao gerada pelo sistema
  
@@ -214,7 +213,7 @@ Header
 ### Json
       {
       
-    "transacao-id":"iVBO456GgoAAAAN",
+
     "status:"3",
     "data":"2009-06-15T13:45:30"
     "codigo":"1qaz2wsx3edc2wsx3ed4rfv",
@@ -254,12 +253,8 @@ MODELO DE BODY
 
 
 [int] status = data de alteracao do estatus da compra
- 
-[string] transacao-id = codigo de transacao gerada pelo sistema
 
-[string] item = Codigo de indentificação de pedido.
-
-[object] item = Codigo de indentificação do produto.
+[object] item = carrinho de produtos.
 
 [string] nome = nome que é referenciado o produto.
 
@@ -269,11 +264,44 @@ MODELO DE BODY
 
 [int] quantidade = quantidade do produto.
 
-[int] valorTotal = valor total da compra
-
+[int] valorTotal = valor total da compra 
  
-    
+  
+GET
+api.bancointer.com.br/v1/transacao-id/
+ 
+Header
+"pin":"qwertyuiasd234sdfgcv567dfgh678",
+ 
+ 
+ EXEMPLO DE RESPOSTA
 
+
+### Json
+
+
+    {   
+    
+   
+      "1":{
+      "transacao-id":" "iVBO456GgoAAAAN"
+      },
+      "2":{
+      "transacao-id":" "iVBO456GgoAAAAN"
+      },
+      "3":{
+      "transacao-id":" "iVBO456GgoAAAAN"
+      }
+    
+  
+     }
+     
+     
+MODELO DE BODY
+
+[string] transacao-id = codigo de transacao gerada pelo sistema
+ 
+  
 
 ### Mensagens de Resposta:
 - 200 ok
@@ -283,5 +311,3 @@ MODELO DE BODY
 - 403	Forbidden
 - 404	Not Found (Ocorre quando não é encontrado a transacão informada)
 - 500	Internal Server Error
-
-
