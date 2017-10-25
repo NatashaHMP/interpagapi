@@ -9,4 +9,6 @@ API para o Interpag
 - Quantidade
 - ReferenciaCompra
 - Data
+- ID
+
 
