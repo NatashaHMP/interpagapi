@@ -94,14 +94,14 @@ GET
 api.bancointer.com.br/v1/qr-code/
 
 Header
-"pin":"qwertyuiasd234sdfgcv567dfgh678",
+                   "pin":"qwertyuiasd234sdfgcv567dfgh678",
 
-"qr-code":"iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABF0lEQVR42u2YTRKDIAyFw4pjcNMC
-    N+UYrKAvCTJq222ThQw6yOfiaX6V5q9BD3nIn0khjFRnCz3NzhfBDak4eiqUSmwZUHeckE5Lb2Th
-    hZ/AG+FZXRLYPK+FJyLWhie+Iu769ANLsqKk6/wSP4ZEB+9F0XvPO5YE5h2UjjMkt+CGQOmIzKeY
-    fcAl3RB9nZk9EZlPM7QjMiVEkPyCrLMbMmQPkkmKxkm1C1LF+0rU9Y4SeyL5eFXa6xu1JxIojaIK
-    x7YjUg4fHGxqHn7IIXyd6y1+TIlWM0h+re7pVucsye46NUROUeKASNO0TX2uZl6IfEygYvB0Rqq0
-    A4UuXzn2RLvOVcq0A/VCdtcpqtGntOCGPP8PHmJP3vHeJAvXf8ttAAAAAElFTkSuQmCC"
+            "qr-code":"iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABF0lEQVR42u2YTRKDIAyFw4pjcNMC
+            N+UYrKAvCTJq222ThQw6yOfiaX6V5q9BD3nIn0khjFRnCz3NzhfBDak4eiqUSmwZUHeckE5Lb2Th
+            hZ/AG+FZXRLYPK+FJyLWhie+Iu769ANLsqKk6/wSP4ZEB+9F0XvPO5YE5h2UjjMkt+CGQOmIzKeY
+            fcAl3RB9nZk9EZlPM7QjMiVEkPyCrLMbMmQPkkmKxkm1C1LF+0rU9Y4SeyL5eFXa6xu1JxIojaIK
+            x7YjUg4fHGxqHn7IIXyd6y1+TIlWM0h+re7pVucsye46NUROUeKASNO0TX2uZl6IfEygYvB0Rqq0
+            A4UuXzn2RLvOVcq0A/VCdtcpqtGntOCGPP8PHmJP3vHeJAvXf8ttAAAAAElFTkSuQmCC"
     
 MODELO DE BODY
 
@@ -185,13 +185,13 @@ MODELO DE BODY
  EXEMPLO DE RESPOSTA
  
  ### Json
-      { 
-   
-    
-    "transacao-id":" "iVBO456GgoAAAAN"
-    
-  
-     }
+           { 
+
+
+          "transacao-id":" "iVBO456GgoAAAAN"
+
+
+           }
  
  MODELO DE BODY
 
