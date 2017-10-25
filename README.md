@@ -6,8 +6,8 @@ API para o Interpag
 POST
 api.bancointer.com.br/v1/qr-code/
 
-  Json
-    {
+### Json
+      {
   
     "pin": "giygsuhuhdudneindlksndm93ue9078098",
   
