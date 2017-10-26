@@ -12,6 +12,8 @@ Fácil de usar e seguro para comprar
 3. O cliente aponta para a tela e digita o PIN para confirmar a compra.
 4. Compra Efetuada!
 
+### Telas
+
 ![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/sistema-qrcode.png)
 
 
