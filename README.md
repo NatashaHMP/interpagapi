@@ -25,6 +25,9 @@ Fácil de usar e seguro para comprar
 > “Coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”
 Andrew Tanenbaum
 
+> Sistemas assimétricos (sistema de chave pública): As chaves para cifrar e decifrar são diferentes, porém formam um par exclusivo. Normalmente são mais lentos que sistemas simétricos.
+Ex: Algoritmo de chave pública RSA
+
 ## api.bancointer.com.br/v1/
 
 O client precisa saber somente a URI inicial e subsequentemente faz escolhas que o servidor forneceu para navegar ou realizar ações. 
