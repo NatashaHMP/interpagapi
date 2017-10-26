@@ -11,8 +11,6 @@ API para o Interpag
 
 
 
-
-
 ### api.bancointer.com.br/v1/
 
 POST
@@ -58,7 +56,7 @@ api.bancointer.com.br/v1/qr-code/
  
      }
 
-MODELO DE BODY
+## MODELO DE BODY
 
 [string] pin = Codigo de verificação unico para acesso a area restrita ao cliente.
 
@@ -78,7 +76,7 @@ MODELO DE BODY
 
 [string] data = data de cadastro
 
-EXEMPLO DE RESPOSTA
+## EXEMPLO DE RESPOSTA
 
 ### Json
       {
@@ -93,7 +91,7 @@ EXEMPLO DE RESPOSTA
   
      }
 
-MODELO DE BODY
+## MODELO DE BODY
 
 [string] data = data de cadastro
 
@@ -115,14 +113,14 @@ Header
             x7YjUg4fHGxqHn7IIXyd6y1+TIlWM0h+re7pVucsye46NUROUeKASNO0TX2uZl6IfEygYvB0Rqq0
             A4UuXzn2RLvOVcq0A/VCdtcpqtGntOCGPP8PHmJP3vHeJAvXf8ttAAAAAElFTkSuQmCC"
     
-MODELO DE BODY
+## MODELO DE BODY
 
 [string] pin = codigo de identificação
 
 [string] qr-code = Codigo gerado para a compra.
 
 
-EXEMPLO DE RESPOSTA
+## EXEMPLO DE RESPOSTA
 
 ### Json
       {
@@ -160,7 +158,7 @@ EXEMPLO DE RESPOSTA
  
      }
 
-MODELO DE BODY
+## MODELO DE BODY
 
 [string] item = Codigo de indentificação de pedido.
 
@@ -191,7 +189,7 @@ Header
   
      }
 
-MODELO DE BODY
+## MODELO DE BODY
 
  [int] status = parametro de estado da compra
  
@@ -208,7 +206,7 @@ MODELO DE BODY
 
            }
  
- MODELO DE BODY
+ ### MODELO DE BODY
 
 
  
@@ -264,7 +262,7 @@ Header
  
      }
 
-MODELO DE BODY
+## MODELO DE BODY
 
 
 [int] status = data de alteracao do estatus da compra
@@ -289,7 +287,7 @@ Header
 "pin":"qwertyuiasd234sdfgcv567dfgh678",
  
  
- EXEMPLO DE RESPOSTA
+ ### EXEMPLO DE RESPOSTA
 
 
 ### Json
@@ -312,15 +310,15 @@ Header
      }
      
      
-MODELO DE BODY
+## MODELO DE BODY
 
 [string] transacao-id = codigo de transacao gerada pelo sistema
  
   
 
 ### Mensagens de Resposta:
-- 200 ok
-- 201 creat
+- 200 OK
+- 201 Created
 - 400	Bad Request
 - 401	Unauthorized
 - 403	Forbidden
