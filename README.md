@@ -20,9 +20,14 @@ Fácil de usar e seguro para comprar
 ![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/processo-qrcode.png)
 
 
+### REST. Por que?
 
+> “Coleção de computadores independentes que se apresenta ao usuário como um sistema único e consistente”
+Andrew Tanenbaum
 
-### api.bancointer.com.br/v1/
+## api.bancointer.com.br/v1/
+
+O client precisa saber somente a URI inicial e subsequentemente faz escolhas que o servidor forneceu para navegar ou realizar ações. 
 
 
 
