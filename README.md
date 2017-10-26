@@ -6,17 +6,16 @@ API para o Interpag
 Guia de integração
 Fácil de usar e seguro para comprar
 
+### Como funciona?
+1. Sistema do Lojista com opção de pagamento via Interpag. 
+2. Valor da compra é enviado via API para popular o plugin. 
+3. O cliente aponta para a tela e digita o PIN para confirmar a compra.
+4. Compra Efetuada!
 
 ![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/sistema-qrcode.png)
 
 
 ![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/processo-qrcode.png)
-
-
-
-
-
-
 
 
 
