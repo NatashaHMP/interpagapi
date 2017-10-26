@@ -1,6 +1,10 @@
 # interpagapi
+
 API para o Interpag
 
+
+Guia de integração
+Fácil de usar e seguro para comprar
 
 
 ![alt text](https://raw.githubusercontent.com/pimatco/interpagapi/master/sistema-qrcode.png)
@@ -11,7 +15,17 @@ API para o Interpag
 
 
 
+
+
+
+
+
+
 ### api.bancointer.com.br/v1/
+
+
+
+###Processo de Geração de qr-code para Sistema de Terceiros
 
 POST
 api.bancointer.com.br/v1/qr-code/
@@ -82,6 +96,7 @@ api.bancointer.com.br/v1/qr-code/
       {
   
     "data":"2009-06-15T13:45:30",
+    "valorTotal":"60000",
     "qr-code":" "iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQAAAACFI5MzAAABF0lEQVR42u2YTRKDIAyFw4pjcNMC
                  N+UYrKAvCTJq222ThQw6yOfiaX6V5q9BD3nIn0khjFRnCz3NzhfBDak4eiqUSmwZUHeckE5Lb2Th
                  hZ/AG+FZXRLYPK+FJyLWhie+Iu769ANLsqKk6/wSP4ZEB+9F0XvPO5YE5h2UjjMkt+CGQOmIzKeY
@@ -95,10 +110,12 @@ api.bancointer.com.br/v1/qr-code/
 
 [string] data = data de cadastro
 
+[int] valorTotal = valor total da compra
+
 [string] qr-code = Codigo gerado para a compra.
 
 
-
+### Receber QR-CODE no Aplicativo
 
 GET
 api.bancointer.com.br/v1/qr-code/
@@ -174,7 +191,7 @@ Header
 
 [int] valorTotal = valor total da compra
 
-
+### Confimação de pagamento
 
 PATCH
 api.bancointer.com.br/v1/qr-code/{codigo}
@@ -193,7 +210,7 @@ Header
 
  [int] status = parametro de estado da compra
  
- [int] token-sms = token recebido via sms
+ [int] tokenSms = token recebido via sms
  
  EXEMPLO DE RESPOSTA
  
@@ -210,12 +227,12 @@ Header
 
 
  
- [string] transacao-id = codigo de transacao gerada pelo sistema
+ [string] transacaoId = codigo de transacao gerada pelo sistema
  
- 
+### Buscar Informacao da conta Pelo Sistema e Pelo Aplicativo
  
 GET
-api.bancointer.com.br/v1/transacao-id/{transacao-id}
+api.bancointer.com.br/v1/transacaoId/{transacaoId}
  
 Header
 "pin":"qwertyuiasd234sdfgcv567dfgh678",
@@ -280,8 +297,10 @@ Header
 [int] valorTotal = valor total da compra 
  
   
+### Historico de Trasacao  
+  
 GET
-api.bancointer.com.br/v1/transacao-id/
+api.bancointer.com.br/v1/transacao/
  
 Header
 "pin":"qwertyuiasd234sdfgcv567dfgh678",
